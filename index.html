@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobby</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Main</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Main</a></li>
+      <li><a href="biodata.html">Biodata</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="hobby.html">Hobby</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="hobby">
+      <h2>About Main Page</h2>
+      <div class="gallery">
+        <div class="thumbnail" onclick="showText('Thank you for knowing about me')">
+          Thumbnail 1
+        </div>
+        <div class="thumbnail" onclick="showText('This is my personal website')">
+          Thumbnail 2
+        </div>
+      </div>
+      <div class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p id="modal-text"></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 My Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
